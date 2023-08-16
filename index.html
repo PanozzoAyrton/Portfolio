@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ayrton P. Diseñador Grafico</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="./img/icon.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./img/icon.jpg" alt="Logo de Panozzo Ayrton" title="Panozzo Ayrton">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="https://www.behance.net/ayrtonpanozzo" target="_blank">Behance</a></li>
+                <li><a href="https://www.instagram.com/ayrtonpanozzo24/" target="_blank">Instagram</a></li>
+                <li><button id="contacto">Contacto</button></li>
+                <li><a href="https://wa.me/1134431112" target="_blank">Otra opción de contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="text-column">
+
+                <img class="img" src="./img/yo.jpg" alt="Foto de ayrton">
+                <h1>SOBRE MI</h1>
+                <p>¡Hola! Mi nombre es Ayrton Panozzo, tengo 22 años y soy técnico en diseño y comunicación
+                    publicitaria, ilustrador freelance que
+                    actualmente está estudiando diseño gráfico. Me apasiona el mundo del diseño y la publicidad, y
+                    siempre estoy buscando formas de mejorar y perfeccionar mis habilidades creativas.</p>
+
+
+                <p> A lo largo de mi carrera, adquirí una amplia gama de habilidades en diseño, incluyendo la
+                    creación de diseños, la edición de fotografías, la producción de piezas publicitarias y
+                    mucho más. Me encanta utilizar mi creatividad para ayudar a las empresas a comunicar su mensaje de
+                    manera efectiva y memorable.</p>
+
+
+                <p>En este portfolio, encontrarás una selección de agunos de mis trabajos.Cada pieza es el resultado de
+                    mi
+                    dedicación y pasión por el
+                    diseño. Para ver mas de mis trabajos pasate por mi Instagram o Behance.</p>
+
+
+                <p>Gracias por tomarte el tiempo de conocerme y explorar mi portfolio. Si tienes alguna pregunta o
+                    comentario, no dudes en ponerte en contacto conmigo. ¡Estoy esperando trabajar con vos en
+                    futuros proyectos de diseño!</p>
+            </div>
+            <div class="image-column">
+                <div class="image-slider">
+                    <div class="slider-wrapper">
+                        <img class="img" src="./img/img1.jpg" alt="cuadro de ideas rompientes">
+                        <img class="img" src="./img/img2.jpg" alt="pintura por el dia internacional de la mujer">
+                        <img class="img" src="./img/img3.jpg" alt="diseño retro-tecno japones">
+                        <img class="img" src="./img/gif.gif" alt="publicidad de turismo tokyo japon">
+                        <iframe class="short" src="https://www.youtube.com/embed/tIeJdRQoCU0" allowfullscreen></iframe>
+                    </div>
+                    <div class="slider-prev">&#10094;</div>
+                    <div class="slider-next">&#10095;</div>
+                    <div class="slider-dots"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="sidebar">
+            <button class="sidebar-btn">Conocimientos en</button>
+            <div class="sidebar-content">
+                <ul>
+                    <li>
+                        <img class="img2" src="./img/adobe-photoshop-logo.png" alt="Logo Photoshop">
+                        <h3>PHOTOSHOP</h3>
+                    </li>
+                    <li>
+                        <img class="img2" src="./img/after-effects-logo-PNG-6.png" alt="Logo AfterEffects">
+                        <h3>AFTER EFFECTS</h3>
+                    </li>
+                    <li>
+                        <img class="img2" src="./img/Adobe_illustrator_logo_PNG3.png" alt="Logo Adobleillustrator">
+                        <h3>ILLUSTRATOR</h3>
+                    </li>
+                    <li>
+                        <img class="img2" src="./img/Adobe_InDesign_logo_PNG1.png" alt="Logo Indesign">
+                        <h3>INDESIGN</h3>
+                    </li>
+                    <li>
+                        <img class="img2" src="./img/Clip_Studio_Paint_app_logo.png" alt="Logo ClipPaintStudio">
+                        <h3>CLIP STUDIO PAINT</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <div class="overlay invisible" id="overlay">
+        <div class="form-container">
+            <h2>Escribime tus consultas</h2>
+            <form id="contact-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" required></textarea>
+                <button type="submit" id="enviar-btn" disabled>Enviar</button>
+                <div class="error-bubble" id="error-bubble">
+                    <p class="error-message" id="error-mensaje">Por favor, ingresa un correo electrónico válido.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/Main.js"></script>
+
+    <footer id="footer"> Autor de este documento: Panozzo Ayrton </footer>
+</body>
+
+</html>
